@@ -1,4 +1,13 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="B[~Vp`_,_E_3~U_lRnAb">tall</variable></variables><block type="pxt-on-start" id="(ta0;zK^_^CJVT%XF`ZN" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="@1[~`(zYUl(w9t,*fwh."><field name="VAR" id="B[~Vp`_,_E_3~U_lRnAb">tall</field><value name="VALUE"><shadow type="math_number" id="!WI!tyj.WaxN}:[2^9.w"><field name="NUM">0</field></shadow></value><next><block type="device_show_number" id=",I}ss1ury[pPDrCn?{U]"><value name="number"><shadow type="math_number" id="M3@7ojs8Qub@}VM@Sy^I"><field name="NUM">0</field></shadow><block type="variables_get" id="WX!2@2d|!([8Uo9?X?(y"><field name="VAR" id="B[~Vp`_,_E_3~U_lRnAb">tall</field></block></value></block></next></block></statement></block><block type="device_button_event" id="I]Naz1E3mdH2I-l+@Qij" x="290" y="7"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_change" id="iSe6W0Xa9W:L)[g7xdGi"><field name="VAR" id="B[~Vp`_,_E_3~U_lRnAb">tall</field><value name="VALUE"><shadow type="math_number" id="bygm+5H-2ob3OuDWJP#e"><field name="NUM">1</field></shadow></value></block></statement></block><block type="basic_show_arrow" id="F~Z,~Xcd{X$jQy8c}z#H" disabled="true" x="808" y="42"><value name="i"><shadow type="device_arrow" id="Dr0gmh2~{t[RhYxma=!3" disabled="true"><field name="arrow">ArrowNames.North</field></shadow></value></block><block type="device_forever" id="Y6]uiNQ0m2$EnOeE7j0O" x="2" y="207"><statement name="HANDLER"><block type="controls_if" id="6_Tl.4g[QlPW[uX2sL@w"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean" id="RwA9w`E4s-_oh$~tbq`T"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="dXR,D:XYfsUZ%eEh8mR0"><field name="OP">GTE</field><value name="A"><shadow type="math_number" id="_Kl}*KXs.6UOdUX_R9Xo"><field name="NUM">0</field></shadow><block type="variables_get" id="i[)Z)$#ddqnQ:a{CAluk"><field name="VAR" id="B[~Vp`_,_E_3~U_lRnAb">tall</field></block></value><value name="B"><shadow type="math_number" id="a.+C4v;3atO+[wPBWYV$"><field name="NUM">10</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="UYEej:g*A6%xb%=HQsz{"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="{[(W:_d{1g+Po@j/h2}{"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></next></block></statement><statement name="ELSE"><block type="device_show_number" id=".-b][RI@*1$tV3gev8[d"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="|K]6{W-jCo}ca;:b$}DU"><field name="VAR" id="B[~Vp`_,_E_3~U_lRnAb">tall</field></block></value></block></statement></block></statement></block><block type="variables_get" id="@,FqnWkrNPkqh%@!)-(A" disabled="true" x="883" y="208"><field name="VAR" id="B[~Vp`_,_E_3~U_lRnAb">tall</field></block></xml>
